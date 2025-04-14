@@ -2631,3 +2631,112 @@ input, select, textarea {
 				}
 
 	}
+
+	/*To make black themed*/
+
+	/* === Custom Dark Theme Enhancements === */
+
+body {
+	background-color: #121212;
+	color: #e0e0e0;
+}
+
+/* Headings and text */
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+}
+strong, b {
+	color: #ffffff;
+}
+
+/* Link styles */
+a {
+	color: #80cbc4;
+	border-bottom: dotted 1px rgba(128, 222, 234, 0.5);
+}
+a:hover {
+	color: #a7ffeb;
+	border-bottom-color: transparent;
+}
+
+/* Sidebar/Header */
+#header {
+	background: #1b1b1b url("images/overlay.png");
+	box-shadow: inset -0.25em 0 0.25em 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Section backgrounds */
+#main > section {
+	background-color: #1c1c1c;
+}
+#main > section.one {
+	background-color: #212121 !important;
+}
+#main > section.two {
+	background-color: #1e1e1e !important;
+}
+#main > section.three {
+	background-color: #262626 !important;
+}
+#main > section.four {
+	background-color: #1a1a1a !important;
+}
+#main > section.five {
+	background-color: #202020 !important;
+}
+
+/* Buttons */
+.button {
+	background-color: #37474f !important;
+	color: #ffffff !important;
+	border: 1px solid #546e7a;
+}
+.button:hover {
+	background-color: #455a64 !important;
+}
+
+/* Form fields */
+input, textarea, select {
+	background-color: #2a2a2a;
+	color: #ccc;
+	border: 1px solid #444;
+}
+input:focus, textarea:focus, select:focus {
+	background-color: #333;
+	box-shadow: 0 0 4px #80cbc4;
+}
+
+/* Footer */
+#footer {
+	background-color: #121212;
+	color: #999;
+	box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Project cards */
+.item {
+	background-color: #2a2a2a;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.item header {
+	background: #2e2e2e;
+	color: #f0f0f0;
+}
+
+/* Nav highlight */
+#nav ul li a.active {
+	background: rgba(255, 255, 255, 0.05);
+	color: #ffffff;
+}
+#nav ul li a.active span:before {
+	color: #80cbc4;
+}
+
+/* Social icons */
+ul.icons a {
+	color: #bbb;
+}
+ul.icons a:hover {
+	color: #ffffff;
+}
